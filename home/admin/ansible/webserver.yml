@@ -1,0 +1,6 @@
+
+---
+- name: Deploy Webserver Role
+  hosts: webservers
+  roles:
+    - webserver
